@@ -1,1 +1,48 @@
 /*  your css code here. If applicable */
+body{
+	background-color: #f5f5f5 !important;
+}
+.block-heading{
+	text-align: center;
+	width: 400px;
+	margin: auto;
+}
+.block-heading h1{
+	color: #3b99e0;
+}
+img{
+	width: 80px;
+	height: autopx;
+}
+.product_inner{
+	display: flex;
+	gap: 50px;
+}
+.quantity h3{
+	font-size: 15px;
+}
+.product-detail h3{
+	font-size: 20px;
+	white-space: nowrap;
+	margin-bottom: 15px;
+	color: #3b99e0;
+}
+.product-detail p{
+	font-size: 15px;
+	margin: 0;
+}
+.quantity input{
+	width: 100px;
+}
+.price{
+	font-size: 25px;
+}
+.summary{
+	padding: 20px;
+	border-top: 2px solid #5ea4f3;
+	background-color: #f7fbff;
+	height: 100%;
+}
+.shadow{
+	box-shadow: 1px 2px 5px rgba(0,0,0,0.2);
+}
