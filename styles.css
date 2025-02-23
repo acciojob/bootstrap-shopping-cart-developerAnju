@@ -21,7 +21,7 @@ img{
 .quantity h3{
 	font-size: 15px;
 }
-.product-detail h3{
+.product-detail h2{
 	font-size: 20px;
 	white-space: nowrap;
 	margin-bottom: 15px;
@@ -45,6 +45,9 @@ img{
 }
 .shadow{
 	box-shadow: 1px 2px 5px rgba(0,0,0,0.2);
+}
+a{
+	color: #000 !important;
 }
 @media (min-width: 576px){
 	.container{
